@@ -30,7 +30,7 @@ jobs:
       run: ng test --watch=false --browsers=ChromeHeadless
 
     - name: Build the app
-      run: ng build --prod --base-href  "https://rnNathan.github.io/actions/"
+      run: ng build --prod --base href  "https://rnNathan.github.io/actions/"
 
     deploy: 
       runs-on: ubuntu-latest
